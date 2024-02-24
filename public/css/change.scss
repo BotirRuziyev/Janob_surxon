@@ -1,0 +1,41 @@
+// div.header-language {
+//     display: flex;
+//     align-items: center;
+//     max-height: 30px;
+//     a {
+//         display: inline-block;
+//         padding: 5px 10px;
+//         font-size: 14px;
+//         color: #fff;
+//         font-weight: 300;
+//         position: relative;
+//         color: #dbcbfd; 
+//     }
+//     a:first-child:before {
+//         content: "";
+//         position: absolute;
+//         height: 22px;
+//         right: 0;
+//         width: 1px;
+//         background-color: #fff;
+//     }
+//     a.__select {
+//         font-weight: 600;
+//         color: #fff;
+//     }
+// }
+
+
+.nav-lan{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    display: block;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+}

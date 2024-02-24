@@ -1,0 +1,119 @@
+<h1>Eng yaxshi loyihani qo'shish</h1>
+<div class="container mt-3 mb-3"> 
+    <form action="/news/add" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
+        <!-- Eng yaxshi loyihaning turi model name -->
+        <div class="mb-3"> 
+            <label class="form-label" for="validationCustom01">Eng yaxshi loyihaning turi Uzbek</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Eng yaxshi loyihaning turi yozing Uzbek tilida" name="nameuz" required>
+            <div class="invalid-feedback">
+                Eng yaxshi loyihaning turi yozilmagan
+            </div>
+            <div class="valid-feedback">
+               Yaxshi
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="validationCustom01">Eng yaxshi loyihaning turi Rus</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Eng yaxshi loyihaning turini yozing Rus tilida" name="nameru" required>
+            <div class="invalid-feedback">
+                Eng yaxshi loyihaning turi yozilmagan
+            </div>
+            <div class="valid-feedback">
+               Yaxshi
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="validationCustom01">Eng yaxshi loyihaning turi English</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Eng yaxshi loyihaning turini Ingliz tilida" name="nameen" required>
+            <div class="invalid-feedback">
+                Eng yaxshi loyihaning turi yozilmagan
+            </div>
+            <div class="valid-feedback">
+               Yaxshi
+            </div>
+        </div>
+        <hr style="color: red; height: 2px;">
+<!-- Eng yaxshi loyihaning sarlavhasi model title -->
+        <div class="mb-3">
+            <label class="form-label" for="validationCustom01">Eng yaxshi loyihaning sarlavhasi Uzbek tilida </label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Xizmatning Sarlavhasini yozing uzbek tilida" name="titleuz" required>
+            <div class="invalid-feedback">
+                Eng yaxshi loyihaning Sarlavhasi yozilmagan
+            </div>
+            <div class="valid-feedback">
+               Yaxshi
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="validationCustom01">Eng yaxshi loyihaning sarlavhasi Rus tilida </label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Eng yaxshi loyihaning Sarlavhasini yozing rus tilida" name="titleru" required>
+            <div class="invalid-feedback">
+                Eng yaxshi loyihaning Sarlavhasi yozilmagan
+            </div>
+            <div class="valid-feedback">
+               Yaxshi
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="validationCustom01">Eng yaxshi loyihaning sarlavhasi Ingliz tilida </label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Eng yaxshi loyihaning Sarlavhasini yozing Ingliz tilida" name="titleen" required>
+            <div class="invalid-feedback">
+                Eng yaxshi loyihaning Sarlavhasi yozilmagan
+            </div>
+            <div class="valid-feedback">
+               Yaxshi
+            </div>
+        </div> 
+        <hr style="color: red; height: 2px;">
+<!-- Eng yaxshi loyihaning rasmi model file -->
+        <div class="mb-3">
+            <label class="form-label" for="validationCustom01">Eng yaxshi loyihaning rasmi</label>
+            <input type="file" class="form-control" id="validationCustom01" placeholder="Eng yaxshi loyihaning rasmini tanlang" name="image" required>
+            <div class="invalid-feedback">
+                Eng yaxshi loyihaning rasmi tanlanmagan
+            </div>
+            <div class="valid-feedback">
+               Rasm tanlandi
+            </div>
+        </div> 
+        <hr style="color: red; height: 2px;">
+        <!-- Eng yaxshi loyihaning topshirilgan sanasi model description -->
+        <div class="mb-3 position-relative" id="datepicker1">
+            <label class="form-label">Ish topshirilgan sana:</label>
+            <input type="text" class="form-control" name="year" data-provide="datepicker" data-date-container="#datepicker1">
+            <div class="invalid-feedback">
+                Eng yaxshi loyihaning Sarlavhasi yozilmagan
+            </div>
+            <div class="valid-feedback">
+               Yaxshi
+            </div>
+        </div>
+        <hr style="color: red; height: 2px;">
+<!-- Eng yaxshi loyihaning haqida  model description -->
+        <div class="mb-3"> 
+            <label class="form-label"  >Eng yaxshi loyihaning haqida Uzbek tilida</label>
+            <textarea class="form-control "  rows="5" 
+                placeholder="Eng yaxshi loyihaning haqida yozing Uzbek tilida" name="descriptionuz" ></textarea>
+            
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Eng yaxshi loyihaning haqida Rus tilida</label>
+            <textarea class="form-control "  rows="5" 
+                placeholder="Eng yaxshi loyihaning haqida yozing rus tilida" name="descriptionru" ></textarea>
+            
+        </div>
+        <div class="mb-3">
+            <label class="form-label"  >Eng yaxshi loyihaning haqida Ingliz tilida</label>
+            <textarea class="form-control"  rows="5" 
+                placeholder="Eng yaxshi loyihaning haqida yozing Ingliz tilida" name="descriptionen" ></textarea>
+            
+        </div>
+
+       
+        
+        
+        <button class="btn btn-primary" type="submit">Yuklash</button>
+    </form>
+</div>

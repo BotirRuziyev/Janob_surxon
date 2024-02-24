@@ -1,0 +1,14 @@
+.nav-lan {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  display: block;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=change.css.map */
